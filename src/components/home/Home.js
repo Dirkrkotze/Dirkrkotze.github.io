@@ -29,10 +29,10 @@ export default function Home() {
                {info.socials.map((social, index) => (
                   <SocialIcon key={index} link={social.link} icon={social.icon} label={social.label} />
                ))}
-            </Box>
+            
             <Box display={'flex'} flexDirection='column' textAlign={'left'} marginTop='-3px'>
                         
-                        <Typography variant="h5" fontWeight={'bold'} paddingBottom='8px' style={{ background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>
+                        <Typography variant="h5" fontWeight={'bold'} textAlign={'center'} paddingBottom='8px' style={{ background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>
                         </Typography>
                             {   
                                 <Typography variant="h6" fontWeight={'bold'} paddingTop='2px' key={11}>
@@ -43,7 +43,7 @@ export default function Home() {
                             
 
                
-        
+                            </Box>
                          </Box>
          </Box>
       </Box>

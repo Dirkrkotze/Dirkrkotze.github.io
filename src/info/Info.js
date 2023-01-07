@@ -15,18 +15,7 @@ export let theme = {
     inactiveButton:'#bbbbbb',
     form:'#e5e5e5'
 };
-/*
-I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
-These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
-the site.
- */
 
-
-/*
-So let's get started! Some of the info below is pretty self-explanatory, like 'firstName' and 'bio'. I'll try to explain anything
-that might not be obvious right off the bat :) I recommend looking at the template example live using "npm start" to get an idea
-of what each of the values mean.
- */
 
 export const info = {
     firstName: "Dirk",
@@ -72,15 +61,12 @@ export const info = {
             icon: "fa fa-linkedin",
             label: 'linkedin'
         }
-// Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
-// Just change the links so that they lead to your social profiles.
-
     ],
     bio: "Hello! I'm Dirk. I'm an Actuarial Science graduate specialising in the fields of Actuarial Science, Mathematical statistics, Statistical Learning, Financial Analyis. I am excited to apply myself in the financial world combining the concepts taught in Actuarial Science with data science and quantitatice analysis. As the fourth industrial revolution dawns upon us with AI and machine learning leading the way, I am looking forward to seeing how I can provide value to you by applying the knowledge and skills that I have accumulated. ",
     skills:
         {
-            proficientWith: ['Python', 'R', 'Statistica', 'VBA', 'Java', 'Latex', 'SAS' , 'github', 'html5', 'css3'],
-            exposedTo: ['nodejs', 'VIM', 'pandas']
+            proficientWith: ['Python', 'R', 'Statistica', 'VBA', 'Java', 'Latex', 'SAS' , 'html', 'css'],
+            exposedTo: ['nodejs', 'VIM', 'Github', 'pandas']
         },
         hobbies: [
             {
