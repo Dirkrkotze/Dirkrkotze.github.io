@@ -82,40 +82,24 @@ export const info = {
                 
             }
         ],
-    portfolio: [
-        {
-            name: "Tea Grading Scorecard",
-            //image: proj4,
-            desc: 'The "Scorecard" application is a paid project financed by the faculty of AgriScience, at Stellenbosch University. The department expressed the need to digitize their research and development pipeline concerning the manufacturing of tea products. The application provides an interface for experts to complete an e-scorecard which is stored directly on the application. Completed scorecards can be either individually or bulk exported to customized PDF or XLSX documents. The application also provides a robust sorting and searching algorithm to identify completed e-scorecards. The project source code can not be made public as this is a paid project, though a viewing may be arranged at the request of a future potential employer.',
-            tags: ['tag1', 'tag2']
-        },
-    ],
     
-    //hobbies: [
-      //  {
-        //    label: 'reading',
-          //  emoji: '📖'
-        //},
-        //{
-        //    label: 'theater',
- //           emoji: '🎭'
- //       },
- //       {
- //           label: 'movies',
- //           emoji: '🎥'
- //       },
- //       {
- //           label: 'cooking',
- //           emoji: '🌶'
- //       }
-// Same as above, change the emojis to match / relate to your hobbies or interests.
-// You can also remove the emojis if you'd like, I just think they look cute :P
-   // ],
-    portfolio: [ // This is where your portfolio projects will be detailed
+    portfolio: [ 
         {
             title: "Projects are not available at this point in time",
             source: "https://github.com/dirkrkotze", // this should be a link to the **repository** of the project, where the code is hosted.
             image: projects
         }
+
+    ],
+    contact: [
+        <form>
+            <input type= "text" name= "sender_name" required placeholder= "your name"/>
+            <input type= "email" name= "sender_email" required placeholder="your email address"/>
+            <textarea name= "message" required placeholder="your message"/>
+            <button type="submit" > Submit message</button>
+        </form>
+
+
     ]
+    
 }

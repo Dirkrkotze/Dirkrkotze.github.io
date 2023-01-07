@@ -16,6 +16,7 @@
     "and": "^0.0.3",
     "classnames": "^2.2.6",
     "date-fns": "^2.29.3",
+    "emailjs-com": "^3.2.0",
     "install": "^0.13.0",
     "material-ui-popup-state": "^4.1.0",
     "moment": "^2.29.4",

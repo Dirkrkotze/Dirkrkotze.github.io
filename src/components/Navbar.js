@@ -26,7 +26,13 @@ const links = [
         name: 'Portfolio',
         to: '/portfolio',
         active: 'portfolio'
-    }
+    }, 
+    // { 
+    //     name: 'Contact Me',
+    //     to: '/contact',
+    //     active: 'contact'
+    // }
+
 ]
 
 export default function Navbar() {
