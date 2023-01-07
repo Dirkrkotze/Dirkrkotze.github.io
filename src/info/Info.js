@@ -21,7 +21,7 @@ export const info = {
     firstName: "Dirk",
     lastName: "Kotze",
     initials: "DRK", 
-    position: "interest in:",
+    position: "interested in:",
     selfPortrait: self, 
     gradient: `-webkit-linear-gradient(110deg, ${colors})`, 
     baseColor: colors[0],
@@ -62,7 +62,7 @@ export const info = {
             label: 'linkedin'
         }
     ],
-    bio: "Hello! I'm Dirk. I'm an Actuarial Science graduate specialising in the fields of Actuarial Science, Mathematical statistics, Statistical Learning, Financial Analyis. I am excited to apply myself in the financial world combining the concepts taught in Actuarial Science with data science and quantitatice analysis. As the fourth industrial revolution dawns upon us with AI and machine learning leading the way, I am looking forward to seeing how I can provide value to you by applying the knowledge and skills that I have accumulated. ",
+    bio: "Hello! I'm Dirk. I'm an Actuarial Science graduate specialising in the fields of Actuarial Science, Mathematical statistics, Statistical Learning, Financial Analyis. I am excited to apply myself in the financial world combining the concepts taught in Actuarial Science with data science and quantitative analysis. As the fourth industrial revolution dawns upon us with AI and machine learning leading the way, I am looking forward to seeing how I can provide value to you by applying the knowledge and skills that I have accumulated. ",
     skills:
         {
             proficientWith: ['Python', 'R', 'Statistica', 'VBA', 'Java', 'Latex', 'SAS' , 'html', 'css'],
